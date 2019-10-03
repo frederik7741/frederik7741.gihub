@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Min kage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="">
+<!-- Dette er selve contain grid systemet-->
+ <style>
+    .item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: right; }
+    .item5 { grid-area: footer; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+        'menu footer footer footer footer footer';
+      grid-gap: 10px;
+      background-color: grey;
+      padding: 10px;
+      
+      height:100%;
+    }
+    
+    .grid-container > div {
+      background-color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+      
+    }
+    </style>
+   <!-- dette er style til tabelene -->
+ <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+  </style>
+  <!-- dette er style til knappen -->
+  <style>
+      a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: black;
+    }
+    </style>
+  </head>
+<body>
+    <div class="grid-container">
+        <div class="item1">Hej ok velkommer til min side om min kage</div>
+        <div class="item2">Menu</div>
+        <div class="item3"><table style="width:100%">
+            <tr>
+              <th>Dette er en table</th>
+              <th colspan="2">her kan du pytte noget und vus det er fx en opskrift
+              </th>
+            </tr>
+            <tr>
+              <td>jwg ved ikke hvad jeg vil bruge den her til endnu..
+              
+              </td> <!--detter den kommentar vi skal lave ;) det kan du skrive ting om dine tags-->
+              <td><a href="default.asp" target="https://mangarock.com">weeb-knap</a></td>
+              <td><img src="https://images.spisbedre.dk/images/recipes/avocado-kage-med-kiksebund-og-hindbaer_4540.jpg?fit=crop&crop=focalpoint&fp-x=0.44902280130293&fp-y=0.60693359375&fp-z=1.1167697344489&w=900&h=687"style="width:10%;height:20%;"> </td>
+              <td>og mere info</td>
+            </tr>
+          </table>
+        </div>  
+        <div class="item4">hej jeg vil gerne skrive opskften til min ynglings kage. dette er selføglig
+            en yeet</div>
+        <div class="item5">Lavet af Frederik NIelsen</div>
+      </div>
+
+
+</body>
+</html>
