@@ -1,5 +1,3 @@
 # frederik7741.gihub
-
-- [link til kage](profil.html)
-- [cool viedeo hehe](https://www.youtube.com/watch?v=AX466hNzWWA)
-- [stik figure ](sketch.js)
+- [link til kage](/website/profil.html)
+- [stik figur](p5-stikFigur)
