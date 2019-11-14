@@ -1,3 +1,3 @@
 # frederik7741.gihub
-- [link til kage](profil.html)
+- [link til kage](webside)
 - [stik figur](p5-stikFigur)
