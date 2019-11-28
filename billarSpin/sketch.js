@@ -1,7 +1,7 @@
 let img;
 
 function preload() {
-	const imgurl ='bilar.png';
+	const imgurl ='bilar.PNG';
   img = loadImage(imgurl);
 }
 
